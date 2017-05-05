@@ -1,0 +1,8 @@
+{
+
+  "DATA_BACKEND": "mongodb",
+  "MONGO_URL": "mongodb://benxin:nbx00144@ds127101.mlab.com:27101/urls",
+  "MONGO_COLLECTION": "requests",
+"NODE_ENV":"production"
+
+}

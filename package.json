@@ -1,0 +1,30 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "\"# personal-portfolio\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenxinNiu/personal-portfolio.git"
+  },
+  "author": "Benxin Niu",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^1.1.0",
+    "body-parser": "^1.16.1",
+    "config": "^1.25.1",
+    "connect-memcached": "^0.2.0",
+    "connect-redis": "^3.2.0",
+    "express": "^4.14.1",
+    "mongodb": "^2.2.24",
+    "nconf": "^0.8.4",
+    "path": "^0.12.7"
+  },
+  "bugs": {
+    "url": "https://github.com/BenxinNiu/personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/BenxinNiu/personal-portfolio#readme"
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="index page">
+    <meta name="author" content="Benxin Niu">
+  <title>Benxin Niu</title>
+    <script src="library/jquery.js"></script>
+    <script src="library/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+            <script src="js/request.js"></script>
+    <link href="css/request.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="css/bootstrap-social.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#links">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                  <a class="navbar-brand"><img class='img-responsive logo' src="/img/CANADA.jpg"></a>
+                <a class="navbar-brand" href="/">Benxin Niu</a>
+            </div>
+            <div class="collapse navbar-collapse" id="links">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="page-scroll">
+                        <a href="/project">View projects</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="/">About me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="form-area">
+    <div class='container'>
+<div class='row'>
+  <div class='col-md-12 text-center'>
+    <span class='alert notification'></span>
+    <form>
+      <label class='first' >First Name</label>
+      <input id="first" required>
+      <label class='last'>Last Name</label>
+      <input id="last" required>
+      <select class="form-control"  id="gender">
+      <option value="Mr.">Mr.</option>
+      <option value="Ms.">Ms.</option>
+      <option value="Mrs.">Mrs.</option>
+      <option value="Miss.">Miss.</option>
+      <option value="Dr.">Dr.</option>
+    </select>
+      <label class='company' required>Company</label>
+      <input id="company">
+      <label class='email' required>Email</label>
+      <input id="email" type='email'>
+      <h3>Are you requesting</h3>
+      <select class="form-control"  id="category">
+      <option value="resume">resume</option>
+      <option value="transcript">transcript</option>
+    </select>
+    <button class="btn btn-default btn-lg" id="fire">Submit</button>
+    </form>
+  </div>
+    </div>
+  </div>
+</body>
+
+
+</html>

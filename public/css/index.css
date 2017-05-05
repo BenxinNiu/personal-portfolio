@@ -1,0 +1,103 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+a:hover{
+  cursor:pointer;
+}
+.row{
+  padding-top:36px;
+  padding-bottom:36px;
+}
+.list_unstyled{
+  list-style-type: none;
+}
+.logo{
+  max-width:50px;
+}
+.navbar-custom{
+  font-size:1.7em;
+  color:white;
+  background-color: transparent;
+  border-bottom:5px #383838 dashed;
+}
+.navbar-brand{
+  font-size:1.5em;
+}
+.top-page{
+  width: 100%;
+  height:670px;
+    padding-top: 30px;
+      padding-bottom: 50px;
+      text-align: center;
+      color: #f8f8f8;
+}
+.message{
+  color:black;
+  position: relative;
+  padding-top: 7%;
+  padding-bottom: 20%;
+}
+.message h1{
+  font-size: 3em;
+  font-weight:bold;
+}
+.line {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.life-a{
+  color:white;
+  width:100%;
+  background-color: #383838;
+}
+.view:hover{
+  background-color: #383838;
+  color:white;
+}
+.section-divider {
+    float: left;
+    width: 100%;
+    border-top: 3px solid #e7e7e7;
+}
+.black-divider{
+  border-top: 3px solid #383838;
+}
+.life-b ul{
+  font-size:16px;
+}
+#request_transcript{
+  color:white;
+  background-color:#383838;
+  margin-bottom:10px;
+}
+#request_transcript:hover{
+  color:black;
+  background-color:white;
+}
+ul li:hover{
+  cursor:pointer;
+}
+.life-c{
+  color:white;
+  width:100%;
+  background-color: #383838;
+}
+@media(max-width:750px){
+.buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+  .buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
