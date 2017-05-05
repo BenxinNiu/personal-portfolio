@@ -63,6 +63,7 @@ $('.notification').addClass('alert-danger').html("Ooops.. Server connection lost
 
 $(document).ready(function(){
   $('input').focus(function(){
+    document.getElementById('fire').disabled=false;
   $('label').css('color','#383838')
   var cla='.'+  $(this).attr('id');
   $(cla).animate({bottom:"0px"},500)
