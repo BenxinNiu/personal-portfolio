@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="index page">
+    <meta name="description" content="Benxin Niu' Projects">
     <meta name="author" content="Benxin Niu">
-  <title>Benxin Niu</title>
+  <title>Benxin Niu' Projects</title>
     <script src="library/jquery.js"></script>
     <script src="library/bootstrap.min.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,7 +18,50 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <div class='container'>
-  </div>
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#links">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                  <a class="navbar-brand"><img class='img-responsive logo' src="/img/CANADA.jpg"></a>
+                <a class="navbar-brand" href="/">Benxin Niu</a>
+            </div>
+            <div class="collapse navbar-collapse" id="links">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li class="page-scroll" >
+                        <a href="/request?type=resume">Get my resume</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="/">About me</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-3">
+                <p class="strong" style="font-size:2em;">Project category</p>
+                <p class='num'></p>
+                <div class="list-group">
+                    <a id='full-stack' class="list-group-item projects">Full Stack project</a>
+                    <a  id='APIs' class="list-group-item projects">API project</a>
+                    <a  id='Front-end' class="list-group-item projects">Front End project</a>
+                </div>
+            </div>
+
+            <div class="col-md-7" id="project_area">
+
+<h2> Please Select a category you'd like to view</h2>
+            </div>
+
+        </div>
+
+    </div>
+
 </body>
 </html>
