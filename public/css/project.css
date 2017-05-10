@@ -1,12 +1,42 @@
 body {
   width:100%;
   height:100%;
-  background:url(../img/construction.png) center center scroll;
-  
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-top:100px;
 }
 .container{
   width:100%;
   height:100%;
 
+}
+.navbar-custom{
+  font-size:1.7em;
+  color:white;
+  background-color: transparent;
+  border-bottom:5px #383838 dashed;
+}
+.navbar-brand{
+  font-size:1.5em;
+}
+.logo{
+  max-width:50px;
+}
+.imgs{
+  width:100%;
+  height:180px;
+}
+.img-responsive{
+max-height:190px;
+}
+.strong{
+  font-weight:bold;
+}
+a:hover{
+  cursor:pointer;
+}
+.projects:hover{
+  cursor:pointer;
+}
+.links{
+  margin-right:20px;
 }
