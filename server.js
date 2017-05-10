@@ -33,6 +33,16 @@ app.get('/project',(req,res)=>{
 res.sendFile(path.join(__dirname,'public','project.html'));
 });
 
+app.get('/full-stack',(req,res)=>{
+res.sendFile(path.join(__dirname,'public','back-end.html'));
+});
+app.get('/APIs',(req,res)=>{
+res.sendFile(path.join(__dirname,'public','api.html'));
+});
+app.get('/Front-end',(req,res)=>{
+res.sendFile(path.join(__dirname,'public','front-end.html'));
+});
+
 app.post('/lucky',(req,res)=>{
 var data=req.body;
 mongo.connect(mongoURL,(err,db)=>{
