@@ -10,6 +10,14 @@ body {
 .logo{
   max-width:50px;
 }
+.navbar-toggle{
+  background-color: #383838;
+  color:white;
+}
+.navbar-right{
+  background-color: #383838;
+  color:white;
+}
 .navbar-custom{
   font-size:1.7em;
   color:white;

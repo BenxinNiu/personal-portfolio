@@ -11,6 +11,14 @@ body {
 a:hover{
   cursor:pointer;
 }
+.navbar-toggle{
+  background-color: #383838;
+  color:white;
+}
+.navbar-right{
+  background-color: #383838;
+  color:white;  
+}
 .row{
   padding-top:36px;
   padding-bottom:36px;

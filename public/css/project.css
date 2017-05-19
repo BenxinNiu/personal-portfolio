@@ -40,3 +40,11 @@ a:hover{
 .links{
   margin-right:20px;
 }
+.navbar-toggle{
+  background-color: #383838;
+  color:white;
+}
+.navbar-right{
+  background-color: #383838;
+  color:white;
+}
