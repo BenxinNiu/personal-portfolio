@@ -8,6 +8,10 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 
 }
+.alert{
+  position:relative;
+  top:-1000px;
+}
 a:hover{
   cursor:pointer;
 }
@@ -15,10 +19,7 @@ a:hover{
   background-color: #383838;
   color:white;
 }
-.navbar-right{
-  background-color: #383838;
-  color:white;  
-}
+
 .row{
   padding-top:36px;
   padding-bottom:36px;
@@ -32,9 +33,11 @@ a:hover{
 .navbar-custom{
   font-size:1.7em;
   color:white;
-  background-color: transparent;
-  border-bottom:5px #383838 dashed;
+  opacity:0.7;
+  background-color:transparent;
+  border-bottom:5px #383838 solid;
 }
+
 .navbar-brand{
   font-size:1.5em;
 }
@@ -47,9 +50,7 @@ a:hover{
       color: #f8f8f8;
 
 }
-#links{
-color:black;
-}
+
 .message{
   color:black;
   position: relative;
