@@ -19,8 +19,6 @@ app.use(function(req, res, next) {
   next();
 });
 
-
-
 app.get('/',(req,res)=>{
 res.sendFile(path.join(__dirname,'public','index.html'));
 });
@@ -28,6 +26,10 @@ res.sendFile(path.join(__dirname,'public','index.html'));
 app.get('/request',(req,res)=>{
 res.sendFile(path.join(__dirname,'public','request.html'));
 });
+
+app.get('/workspace',(req,res)=>{
+  res.sendFile(path.join(__dirname,'public','workspace.html'));
+})
 
 app.get('/project',(req,res)=>{
 res.sendFile(path.join(__dirname,'public','project.html'));
