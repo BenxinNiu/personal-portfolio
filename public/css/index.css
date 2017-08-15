@@ -6,7 +6,6 @@ body {
 
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-
 }
 
 a:hover{
@@ -17,9 +16,6 @@ a:hover{
   color:white;
 }
 
-#links{
-  float:left;
-}
 .search-bar{
 padding-top:20px;
 float:right;
@@ -49,16 +45,20 @@ float:right;
   background-color:transparent;
 }
 
-.navbar-brand{
-  font-size:1.5em;
+.top{
+  height:100%;
+  background: url("../img/cover.jpg");
+  background-position: center;
 }
 .top-page{
   width: 100%;
+  margin-top:-20px;
   height:670px;
-    padding-top: 30px;
-      padding-bottom: 50px;
-      text-align: center;
-
+  padding-top:60px;
+  color:white;
+  font-family:Lobster;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 .line {
