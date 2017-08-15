@@ -7,6 +7,20 @@ body {
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+.search-area{
+  display:block;
+  width:100%;
+  height:100px;
+  margin-top:-20px;
+}
+.submit{
+  text-decoration: none;
+  font-size:2em;
+  color:pink;
+}
+.submit:hover{
+  color:pink;
+}
 .logo{
   max-width:50px;
 }
@@ -28,7 +42,7 @@ body {
   font-size:1.5em;
 }
 .form-area{
-  margin-top:100px;
+  margin-top:50px;
 }
 label{
   font-size:30px;
@@ -65,4 +79,16 @@ input{
 .alert{
   margin-bottom:15px;
   font-size:25px;
+}
+.search{
+  padding:40px 20px 10px 20px;
+}
+.form-group> input{
+ outline: none;
+  border:none;
+  border-bottom:2px solid black;
+  background-color:transparent;
+  font-size: 1.5em;
+  height:50px;
+  width:80%;
 }
