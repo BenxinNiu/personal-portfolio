@@ -8,6 +8,7 @@ body {
 
 a:hover{
   cursor:pointer;
+  text-decoration:none;
 }
 .navbar-toggle{
   outline:none;
@@ -130,14 +131,21 @@ margin-top:10px;
   background-color: #383838;
   color:white;
 }
+.view{
+
+}
 .section-divider {
     float: left;
     width: 100%;
     border-top: 3px solid lightblue;
 
 }
-.black-divider{
-  border-top: 3px solid #383838;
+.stu{
+  font-family: Merriweather;
+  color:black;
+}
+.blue-divider{
+  border-top: 3px solid lightblue;
 }
 .life-b ul{
   font-size:16px;
@@ -160,7 +168,8 @@ ul li a:hover{
 .life-c{
   color:white;
   width:100%;
-  background-color: #383838;
+  background-color: lightpink;
+  opacity:0.8;
 }
 
 @media (min-width:751px){
