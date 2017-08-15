@@ -9,7 +9,5 @@ $(document).ready(function(){
   })
 setTimeout(news,1000);
 if(window.innerWidth<=990)
-  $('.navbar-custom').css("background-color","black")
-else
-$('.navbar-custom').css("background-color","transparent")
+$('.search-bar').addClass('hidden')
 })
