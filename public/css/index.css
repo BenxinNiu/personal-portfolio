@@ -57,6 +57,7 @@ form{
   height:100%;
   background: url("../img/cover.jpg");
   background-position: center;
+  background-attachment: fixed;
 }
 .top-page{
   width: 100%;
@@ -68,6 +69,33 @@ form{
   font-family:Lobster;
   padding-bottom: 50px;
   text-align: center;
+}
+.greeting>h1{
+  font-size:2em;
+}
+.greeting>h3{
+  font-size:1em;
+}
+.board{
+  padding:20px;
+display:block;
+height:auto;
+background-color:transparent;
+opacity:0.5;
+}
+.sm-box{
+  background-color:lightpink;
+  padding-top:20px;
+  padding-bottom:20px;
+  margin:6px;
+  text-align:center;
+  border: 1px black solid;
+  font-family: Merriweather;
+  font-weight:bold;
+  font-size:1.5em;
+}
+.sm-box:hover{
+  cursor:pointer;
 }
 .line {
   margin-top:90px;
@@ -85,7 +113,18 @@ margin-top:10px;
 .life-a{
   color:white;
   width:100%;
-  background-color: #383838;
+  background: url("../img/cover.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  font-size:1em;
+  font-family: Merriweather;
+  color:grey;
+}
+.head-text{
+  color:white;
+  font-weight:bold;
+  font-size:3em !important;
+  font-family: Merriweather;
 }
 .view:hover{
   background-color: #383838;
@@ -94,7 +133,8 @@ margin-top:10px;
 .section-divider {
     float: left;
     width: 100%;
-    border-top: 3px solid #e7e7e7;
+    border-top: 3px solid lightblue;
+
 }
 .black-divider{
   border-top: 3px solid #383838;
@@ -122,13 +162,24 @@ ul li a:hover{
   width:100%;
   background-color: #383838;
 }
+
 @media (min-width:751px){
+
   .icons{
     display:none;
   }
 }
 
 @media(max-width:750px){
+  .line{
+    margin-top:30px;
+  }
+  .greeting>h1{
+    font-size:1.2em;
+  }
+  .greeting>h3{
+    font-size:0.8em;
+  }
 .buttons{
   display:none;
 }
