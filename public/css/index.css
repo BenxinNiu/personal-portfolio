@@ -19,10 +19,20 @@ a:hover{
   background-color: #383838;
   color:white;
 }
+#links{
+  width:100%;
+}
 
-.row{
-  padding-top:36px;
-  padding-bottom:36px;
+.black-bar{
+  display:block;
+  width:100%;
+  height:auto;
+  background-color:black;
+  margin-bottom:-10px;
+}
+.black-bar p{
+  padding-top:20px;
+  padding-bottom: 20px;
 }
 .list_unstyled{
   list-style-type: none;
@@ -35,7 +45,7 @@ a:hover{
   color:white;
   opacity:0.7;
   background-color:transparent;
-  border-bottom:5px #383838 solid;
+  border:1px black solid;
 }
 
 .navbar-brand{
@@ -48,19 +58,8 @@ a:hover{
       padding-bottom: 50px;
       text-align: center;
       color: #f8f8f8;
-
 }
 
-.message{
-  color:black;
-  position: relative;
-  padding-top: 7%;
-  padding-bottom: 20%;
-}
-.message h1{
-  font-size: 3em;
-  font-weight:bold;
-}
 .line {
     width: 400px;
     border-top: 1px solid #f8f8f8;
@@ -103,6 +102,7 @@ ul li:hover{
   width:100%;
   background-color: #383838;
 }
+/*
 @media(max-width:750px){
 .buttons > li {
         display: block;
@@ -114,3 +114,4 @@ ul li:hover{
         margin-bottom: 0;
     }
 }
+*/
