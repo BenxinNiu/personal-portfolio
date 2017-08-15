@@ -72,4 +72,12 @@ $('#fire').click(function(){
 document.getElementById('fire').disabled=true;
 send_infor();
 })
+
+$(".search-area").slideUp(0);
+
+$('.expand-search').click(function(){
+  $(".search-area").slideToggle()
+})
+
+
 })
