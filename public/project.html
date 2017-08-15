@@ -18,27 +18,40 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <nav id="mainNav" class="navbar navbar-default navbar-custom">
+<div class="row">
         <div class="container">
-            <div class="navbar-header page-scroll">
+            <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#links">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
                 </button>
-                  <a class="navbar-brand"><img class='img-responsive logo' src="/img/CANADA.jpg"></a>
-                <a class="navbar-brand" href="/">Benxin Niu</a>
-            </div>
-            <div class="collapse navbar-collapse" id="links">
-                <ul class="nav navbar-nav navbar-right">
-
-                    <li class="page-scroll" >
-                        <a href="/request?type=resume">Get my resume</a>
+                <button type="button"  class="navbar-toggle">
+                    <i class="fa fa-search expand-search"></i>
+                </button>
+                <button type="button"  class="navbar-toggle">
+                  <i class="fa fa-sign-in"></i>
+                </button>
+</div>
+            <div class="collapse navbar-collapse col-md-3 col-md-offset-1 " id="links">
+                <ul class="nav navbar-nav">
+                  <li >
+                      <a href="/">Home</a>
+                  </li>
+                    <li>
+                        <a href="/request?type=resume">get resume</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="/">About me</a>
+                    <li>
+                        <a href="/project">Projects</a>
                     </li>
-
+                    <li>
+                        <a class='admin'><i class="fa fa-sign-in"></i></a>
+                    </li>
+                    <li >
+                      <a class="expand-search"><i class="fa fa-search"></i></a>
+                    </li>
                 </ul>
             </div>
+          </div>
         </div>
     </nav>
     <div class="container">
@@ -51,6 +64,10 @@
                     <a id='full-stack' class="list-group-item projects">Full Stack project</a>
                     <a  id='APIs' class="list-group-item projects">API project</a>
                     <a  id='Front-end' class="list-group-item projects">Front End project</a>
+                    <a  id='C' class="list-group-item projects">C++</a>
+                    <a  id='Other' class="list-group-item projects">Other</a>
+                    <a  id='Multi' class="list-group-item projects">Multi-disciplinary</a>
+                      <a  id='non-ENGI' class="list-group-item projects">Other discipline</a>
                 </div>
             </div>
 
