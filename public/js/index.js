@@ -1,6 +1,6 @@
 function news(){
   console.log("news");
-  $(".alert").animate({top: '0px'},1000);
+//  $(".alert").animate({top: '0px'},1000);
 }
 
 $(document).ready(function(){
