@@ -21,9 +21,9 @@ var length=data.length;
 $(".numOfRepos").html("Toal "+length+" repositories found (excluding private repos)");
 for(var i=1;i<length;i++){
   if (data[i].name.length>20)
-$('.board').append(" <div class='sm-box col-md-4'><p>"+data[i].name+"</p></div>");
+$('.board').append(" <div class='sm-box col-md-4'><a href=" +data[i].url+ ">"+data[i].name+"</a></div>");
 else
-$('.board').append(" <div class='sm-box col-md-2'><p>"+data[i].name+"</p></div>");
+$('.board').append(" <div class='sm-box col-md-2'><a href=" +data[i].url+ ">"+data[i].name+"</a></div>");
 }
 }
 
