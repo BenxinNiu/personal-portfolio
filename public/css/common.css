@@ -1,0 +1,24 @@
+.result-area{
+  padding:20px;
+  background-color: transparent;
+  display:block;
+  width:100%;
+  height:auto;
+  margin-top:-20px;
+}
+.link-results{
+font-size:1.5em;
+color:white;
+font-family: inherit;
+display:block;
+height:auto;
+margin-left:30px;
+}
+.url-result{
+  text-decoration: none;
+  color:white;
+}
+.credit{
+  font-size:0.6em;
+  font-family:inherit;
+}
