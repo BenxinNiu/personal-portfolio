@@ -39,3 +39,26 @@ a:hover{
 .navbar-nav>li>a{
   color:white !important;
 }
+.search-area{
+  display:block;
+  width:100%;
+  height:100px;
+  margin-top:-20px;
+}
+.submit{
+  text-decoration: none;
+  font-size:2em;
+  color:pink;
+}
+.submit:hover{
+  color:pink;
+}
+.form-group> input{
+ outline: none;
+  border:none;
+  border-bottom:2px solid black;
+  background-color:transparent;
+  font-size: 1.5em;
+  height:50px;
+  width:80%;
+}
