@@ -11,6 +11,8 @@
     <script src="library/bootstrap.min.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet">
             <script src="js/project.js"></script>
+            <link href="css/common.css" rel="stylesheet">
+            <script src="js/search.js"></script>
     <link href="css/project.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   <link href="css/bootstrap-social.css" rel="stylesheet">
@@ -54,6 +56,19 @@
           </div>
         </div>
     </nav>
+    <div class="search-area">
+      <form class="search">
+        <div class='form-group' >
+        <input class="key" placeholder="Search content">
+        <a class="submit"><i class="fa fa-search"></i></a>
+      </div>
+      </form>
+    </div>
+    <div class="result-area">
+      <h2> Search result:</h2>
+      <div class="link-results" >
+   </div>
+    </div>
     <div class="container">
 
         <div class="row">
@@ -62,18 +77,20 @@
                 <p class='num'></p>
                 <div class="list-group">
                     <a id='full-stack' class="list-group-item projects">Full Stack project</a>
-                    <a  id='APIs' class="list-group-item projects">API project</a>
-                    <a  id='Front-end' class="list-group-item projects">Front End project</a>
-                    <a  id='C' class="list-group-item projects">C++</a>
-                    <a  id='Other' class="list-group-item projects">Other</a>
-                    <a  id='Multi' class="list-group-item projects">Multi-disciplinary</a>
+                    <a  id='api' class="list-group-item projects">API project</a>
+                    <a  id='front-end' class="list-group-item projects">Front End project</a>
+                    <a  id='c' class="list-group-item projects">C++</a>
+                    <a  id='other' class="list-group-item projects">Other</a>
+                    <a  id='multi' class="list-group-item projects">Multi-disciplinary</a>
                       <a  id='non-ENGI' class="list-group-item projects">Other discipline</a>
                 </div>
+                <p class="credit">This site is powered by Node.js && MongoDB </p>
+                  <p class="credit">A fresh new look with a contemporary design</p>
             </div>
 
             <div class="col-md-7" id="project_area">
 
-<h2> Please Select a category you'd like to view</h2>
+<h2 class="notification"> Please Select a category you'd like to view</h2>
             </div>
 
         </div>
