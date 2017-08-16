@@ -64,7 +64,21 @@ db.close(); res.sendStatus(500);
 });
 });
 
-
+app.get('/requests/:type',(req,res)=>{
+var type=req.params.type;
+var search={"type":type};
+mongo.connect(mongoURL,(err,db)=>{
+if(err){db.close(); res.sendStatus(500);}
+else{
+var collection=db.collection("projects");
+collection.find(search).toArray(function(err,doc){
+if(err){db.close(); res.sendStatus(500);}
+else
+res.send(doc);
+});
+}
+});
+});
 
 var server=app.listen(process.env.port||'8080',function(){
   console.log("running on"+server.address().port);
